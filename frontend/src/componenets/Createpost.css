@@ -1,0 +1,41 @@
+.createpost{
+    max-width: 500px;
+    border: 1px solid rgb(173,173,173);
+    margin: 10px auto;
+}
+
+.post-header{
+    display: flex;
+    margin: 10px auto;
+}
+
+.post-header h4{
+    margin: 3px auto;
+}
+
+#post-btn{
+    border: none;
+    cursor: pointer;
+    color: #339ce3;
+    background: none;
+    font-weight: bolder;
+}
+
+.main-div{
+    border-top: 1px solid rgb(173,173,173);
+}
+.details{
+    border-top: 1px solid rgb(173,173,173);
+}
+.details textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+#output{
+    width: 300px;
+    border: none;
+    outline: none;
+    object-fit: contain;
+    margin-top: 5px;
+}

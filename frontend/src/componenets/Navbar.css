@@ -1,0 +1,48 @@
+img{
+    width: 10%;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+    box-shadow: 1px 5px 5px #e0dcdc;
+}
+
+ul{
+    /* justify-content: space-around; */
+    display: flex;
+    align-items: baseline;
+    
+}
+li{
+    list-style: none;
+    padding: 1px 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.primaryBtn{
+    color: white;
+    background-color: #db183c;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 15px;
+  
+    
+    cursor: pointer;
+    margin-left: 20px;
+}
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(219, 24, 44, 0.6);
+    transition: all 0.25s ease;
+}
